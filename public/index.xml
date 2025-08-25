@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KinfoniA Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on KinfoniA Blog</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 Aug 2025 17:48:52 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Mon, 25 Aug 2025 17:48:52 +0900</pubDate>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math Test</title>
+      <link>http://localhost:1313/math/math-test/</link>
+      <pubDate>Mon, 25 Aug 2025 17:48:52 +0900</pubDate>
+      <guid>http://localhost:1313/math/math-test/</guid>
+      <description>&lt;p&gt;$$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

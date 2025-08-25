@@ -1,0 +1,29 @@
+baseURL = "https://kinfonia.github.io/"
+title = "KinfoniA Blog"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+[params]
+  defaultTheme = "auto"
+  showReadingTime = true
+  math = true
+  enableInlineShortcodes = true
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "math"
+  name = "Math"
+  url = "/math/"
+  weight = 20
+
+[params.homeInfoParams]
+  Title = "Welcome to my blog"
+  Content = "블로그소개글"
+

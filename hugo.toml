@@ -1,5 +1,5 @@
 baseURL = "https://kinfonia.github.io/"
-title = "KinfoniA Blog"
+title = "Tabula rasa"
 theme = "PaperMod"
 
 [pagination]
@@ -24,6 +24,6 @@ theme = "PaperMod"
   weight = 20
 
 [params.homeInfoParams]
-  Title = "Welcome to my blog"
-  Content = "블로그소개글"
+  Title = "Tabula rasa"
+  Content = "kinfonia's blog. @kinfonia. maths, music, other posts"
 

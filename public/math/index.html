@@ -132,6 +132,20 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">대칭이동 변환 횟수의 확장정의
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>tags:
+LinearAlgebra Analysis-Calculus 대칭이동횟수확장 표기 $x\sim y$ 좌표평면 $S_2=\mathbb{R}^2$ 위의 도형 $f=\begin{pmatrix}x\y\end{pmatrix}\mid (x,y) \in D$ 와 정점 $p(x_p,y_p)$ 에 대하여, 도형 $f$를 정점 $p$에 대해 $x=0$ 성분으로는 $\alpha$번, $y=0$ 성분으로는 $\beta$번 대칭이동1한 도형을 아래와 같이 나타내자. $$ \mathbf{T}_{\alpha,\beta}(f)_p $$ 도형 $f$의 정의역은 $D\subset S_2$ 인데 편의를 위해 일반적인 도형 $D=S_2$로 생각하고, 따로 표기는 생략한다. 확장정의 도형이 $f=\begin{pmatrix}x\y\end{pmatrix}\mid (x,y) \in D$ 순서쌍으로 주어졌을때, $\mathbf{T}_{\alpha,\beta}(f)p$ 를 아래와 같이 정의하자. $$ \mathbf{T}{\alpha,\beta}(f)_p \begin{pmatrix} x_p (1-e^{\alpha \pi i} )&#43;e^{\alpha \pi i}x \ y_p (1-e^{\beta \pi i} )&#43;e^{\beta \pi i}y \end{pmatrix} \mid (x,y)\in D $$
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-26 13:20:52 +0900 KST'>August 26, 2025</span>&nbsp;·&nbsp;3 min</footer>
+  <a class="entry-link" aria-label="post link to 대칭이동 변환 횟수의 확장정의" href="http://localhost:1313/math/%EB%8C%80%EC%B9%AD%EC%9D%B4%EB%8F%99-%ED%9A%9F%EC%88%98%EC%9D%98-%ED%99%95%EC%9E%A5%EC%A0%95%EC%9D%98/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Math Test
     </h2>
   </header>
@@ -141,23 +155,6 @@
   </div>
   <footer class="entry-footer"><span title='2025-08-25 17:48:52 +0900 KST'>August 25, 2025</span>&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to Math Test" href="http://localhost:1313/math/math-test/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">나만의 파이 계산 공식
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p> 발견자 Kunwoo Park 일시 2023년 7월 16일 공식 $$\begin{align}\pi=2&#43;\sum_{n=1}^{\infty}2^{n&#43;1}\sin\cfrac{\pi}{2^{n&#43;1}}\sqrt{4\sin^2\cfrac{\pi}{2^{n&#43;2}}-\sin^2\cfrac{\pi}{2^{n&#43;1}}} \\=2&#43;2\cdot \sqrt{2}\cdot \sqrt{(2-\sqrt2)&#43;\cfrac{1}{4}(2)} \
-2^2 \sqrt{2-\sqrt{2} } \cdot \sqrt{(2-\sqrt{2&#43;\sqrt{2}})-\cfrac{1}{4}(2-\sqrt2)} \&#43; \cdots \end{align}$$ 즉 2 뒤의 급수 부분이 1 &#43; (파이의 소수부분)이다. 또한 $$\small\sin \cfrac{\pi}{2^{n&#43;1}} = \cfrac{1}{2} \underbrace{\sqrt{2- \sqrt{2&#43;\sqrt{2&#43;\cdots \sqrt{2}}}}}_{n개의 ;2들}$$ 임을 이용하여 전개하면 예쁘게 살짝만 고쳐쓰면 아래와 같다..
-$$\pi= 2&#43;\sum_{n=1}^{\infty}2^n\cdot \underbrace{\sqrt{2-\sqrt{2&#43;\cdots\sqrt{2}}} \cdot }{2가 ;n개}\sqrt{\underbrace{(2-\sqrt{2&#43;\sqrt{2\cdots \sqrt{2}}})}{2가 ; n&#43;1 개}-\cfrac{1}{4}({\underbrace{2-\sqrt{2&#43;{\sqrt{2{}\cdots\sqrt{2}}})}}_{2가 ;n개}}}$$
-계산 끝항숫자, 계산값, 실제 $\pi$와의 오차율이다. (파이 값은 7000자리 기준이다)
-계산값 (펼치기, 접기) k Sum Error Rate(%) 2 3.0614674589207182565338595728461926673600969203095 2.5504641595567290571023305932498911931131608538946 3 3.1214451522580529724097922244612464385864716103223 0.64131488557939763367385684755862156000947156216339 4 3.1365484905459397632306551539599119469870369628114 0.16056069643814438958448097839539870396975117774950 5 3.1403311569547535808759054092733003417060415127379 0.040154685032066935954483334249916508878007410204627 6 3.1412772509327729840940383575842652224178029226966 0.010039578385814335609549139951007518581958582882858 7 3.1415138011443014652481679620169340911687832258121 0.0025099512949760909006950050701088364719550582113013 8 3.1415729403670916235220492573747758457151285142948 0.00062749136744277887211980863521364033780507234624643 9 3.1415877252771596531557680491346824212837524941508 0.00015687306334356950340639569582844614691655479169643 10 3.1415914215112002487007596916766352227947813967010 0.000039218279666507435332068101552309819780268338064687 11 3.1415923455701179012435423729240163705718520797467 0.0000098045707759976652073497777003269376637694904304245 12 3.1415925765848727833619694132426980653955246561813 0.0000024511427426673232322384711848880555158259224971777 13 3.1415926343385635551165153058437301596564575249355 6.1278566904222004719805975440364583611058613995395E-7 14 3.1415926487769854662646587875572728325542499867830 1.5319642552110853530533982167139743634900253777307E-7 15 3.1415926523865922204207514015727460360192639975494 3.8299074012741739275811941401094828147020250681844E-8 16 3.1415926532889929197128352897234853546957858914624 9.5747676243581047902149508499161710583209040818648E-9 17 3.1415926535145933772680769631234368943996924038751 2.3936820276160969747145654664089128321437030133849E-9 18 3.1415926535709937743730343685808792581691435112022 5.9840162929613804223833689465489406681158897774226E-10 19 3.1415926535850935909320767823896513328133566907460 1.4959052888402624848482852618253023248581668935073E-10 20 3.1415926535886191104666865466008450467003497242218 3.7369756703989773776530274881526376373498445456536E-11 21 3.1415926535895002076302409740230522825966361669909 9.3235629192027139894664956754536559249184832935017E-12 22 3.1415926535897206232585139744750309672345460037354 2.3075155643319650074691866268793898533665518462818E-12 23 3.1415926535897753016464182859174468184519931691577 5.6704842127851176208067561782872658358241196250962E-13 24 3.1415926535897883892891152869878751111675800524069 1.5045581554885875483757889102546440418075302058409E-13 25 3.1415926535897918066883593064713830154789749504358 4.1676619108017342682088754791030664851226917710157E-14 26 3.1415926535897932018357585099238912067060936590326 -2.7323018769889126573008880390432014865403789242342E-15 27 3.1415926535897932018357585099238912067060936590326 -2.7323018769889126573008880390432014865403789242342E-15 k=28부터는 범위내 같음 위 계산은 파이썬으로 진행되었으며, 직접 정확도를 입력해서 계산 해 볼 수 있다. 계산 코드 (펼치기, 접기) import math from decimal import Decimal, getcontext pres_of_PI = 7000 # 실제 파이 값의 자릿수(정확도, 클수록 좋음) getcontext().prec = pres_of_PI &#43; 2 PI = Decimal(math.pi) pres = int(input(&#34;급수의 출력할 자릿수 입력 : &#34;)) def sigma_expression(k, precision=28): getcontext().prec = precision result = Decimal(2) for n in range(1, k &#43; 1): term = Decimal(2**(n &#43; 1)) * Decimal(math.sin(PI / 2**(n &#43; 1))) * Decimal(math.sqrt(4 * math.sin(PI / 2**(n &#43; 2))**2 - math.sin(PI / 2**(n &#43; 1))**2)) result &#43;= term return result k = 1 prev_S = sigma_expression(k, precision=pres) k &#43;= 1 while True: current_S = sigma_expression(k, precision=pres) ER_rate = (PI - current_S)/PI * 100 print(&#34;k={0} | Sum={1} | Error Rate(%)={2}&#34;.format(k, current_S, ER_rate)) if abs(current_S - prev_S) == 0: break #k값이 변해도 계산값이 같으면 출력 멈춤 prev_S = current_S k &#43;= 1 계산값들을 보면, 꽤 빠르게 수렴하는 것을 알 수 있다. 아마 3등정도(라마누잔의 1/Pi 식, 데이빗 베일리의 식 다음으로 빠를 것이다.)
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-08-24 17:48:52 +0900 KST'>August 24, 2025</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to 나만의 파이 계산 공식" href="http://localhost:1313/math/%EB%82%98%EB%A7%8C%EC%9D%98-%ED%8C%8C%EC%9D%B4-%EA%B3%84%EC%82%B0-%EA%B3%B5%EC%8B%9D/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -172,6 +169,36 @@ $$\pi= 2&#43;\sum_{n=1}^{\infty}2^n\cdot \underbrace{\sqrt{2-\sqrt{2&#43;\cdots\
   </div>
   <footer class="entry-footer"><span title='2025-08-24 17:48:52 +0900 KST'>August 24, 2025</span>&nbsp;·&nbsp;4 min</footer>
   <a class="entry-link" aria-label="post link to 중화열로 얼마나 뜨거워졌는지 구하기" href="http://localhost:1313/math/%EC%A4%91%ED%99%94%EC%97%B4%EB%A1%9C-%EC%96%BC%EB%A7%88%EB%82%98-%EB%9C%A8%EA%B1%B0%EC%9B%8C%EC%A1%8C%EB%8A%94%EC%A7%80-%EA%B5%AC%ED%95%98%EA%B8%B0/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Reflection Integral Equation, $\text{RIE by Kunwoo Park}$ at July 1st, 2024
+공식 좌표평면 $S_2=\mathbb{R}^2$ 위의 함수 $f$와 정점 $p(x_p,y_p)$에 대한 $f$의 $p$에 대한 [[대칭이동 횟수의 확장정의|확장된 대칭이동]]된 함수 $\mathbf{T}{\alpha,\beta}(f)p$ 의 고정된 적분영역 $[a,b]$ 위의 넓이는 아래와 같다. $$ \huge \int{a}^{b} \mathbf{T}{\alpha,\beta}{f} p ,(x), \mathrm{d} x= y_p (b-a)(1-e^{\beta \pi i}) &#43; e^{(\beta - \alpha ) \pi i}\int{a’}^{b’}f(x) , \mathrm{d}x $$
+축약표기: $A’=x_p(1-e^{\alpha \pi i})&#43;e^{\alpha \pi i}A$ 증명 [[대칭이동 횟수의 확장정의]]로부터 아래와 같이 쓸 수 있다. $$ \mathbf{T}{\alpha,\beta}(f)p = \begin{pmatrix}x_p (1-e^{\alpha \pi i} )&#43;e^{\alpha \pi i}x\y_p (1-e^{\beta \pi i} )&#43;e^{\beta \pi i}y\end{pmatrix}$$ 이때 $f$가 함수라면, $y=f(x)$ 이므로 아래와 같이 쓸 수 있다. $$ \mathbf{T}{\alpha,\beta}(f)p = y_p(1-e^{\beta \pi i}) &#43; e^{\beta \pi i} f(x_p(1-e^{\alpha \pi i })&#43;e^{\alpha \pi i}x) $$ 이는 아래의 $\mathbf{T}{1,1}(f)p$ 로부터 바로 생각할 수 있다. $$ f(x) \rightarrow \underbrace{2y_p -f}{\text{outside}}(\underbrace{2x_p -x}{\text{inside}}) $$ 아무튼 이 $\mathbf{T}{\alpha,\beta}(f)p$ 를 고정된 구간 $[a,b]$ 위에서 치환적분을 이용해 적분하면 식을 얻는다. $$ \begin{align} \text{we want: }I=\int{a}^{b} \mathbf{T}{\alpha,\beta}(f) _p , \mathrm{d} x \int_{a}^{b}y_p(1-e^{\beta \pi i}) &#43; e^{\beta \pi i} f(\underbrace{x_p(1-e^{\alpha \pi i })&#43;e^{\alpha \pi i}x}{x’}) , \mathrm{d}x \ = \int{a’}^{b’}\left{ y_p (1-e^{\beta \pi i}) &#43;e^{\beta \pi i} f(u) \right}\cfrac{{\mathrm{d}}u }{e^{\alpha \pi i}} , \text { as }x’ \rightarrow u \ = \underbrace{\cfrac{1}{e^{\alpha \pi i}}\int_{a’}^{b’} y_p(1-e^{\beta\pi i}) , \mathrm{d}u}C &#43; \cfrac{e^{\beta \pi i}}{e^{\alpha \pi i}} \int{a’}^{b’} f(u), \mathrm{d}u \ C = \cfrac{y_p (1-e^{\beta \pi i})}{e^{\alpha \pi i}} \cdot 1 \bigg\rvert {a’}^{b’} = \cfrac{y_p (1-e^{\beta \pi i})}{\cancel{e^{\alpha \pi i}}} \cdot (b-a) \cdot \cancel{ e^{\alpha \pi i}} \ \therefore I = y_p(b-a)(1-e^{\beta \pi i}) &#43; e^{(\beta- \alpha) \pi i} \int{a’}^{b’} f(x) , \mathrm{d}x , \blacksquare \end{align} $$
+...</p>
+  </div>
+  <footer class="entry-footer">3 min</footer>
+  <a class="entry-link" aria-label="post link to " href="http://localhost:1313/math/%EB%8C%80%EC%B9%AD%EC%A0%81%EB%B6%84%EB%B0%A9%EC%A0%95%EC%8B%9D/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Kourtney’s vortex theorem, 2024 July
+정리 $n$차원 공간 $S_n=\mathbb{R}^n$ 위의 어떤 도형 $f$를 정점 $p$에 대해 크기가 무한대로 큰 순허수 횟수만큼 대칭이동하면, 점 $p$와 일치한다. 1 $$ \begin{align} \lim _{\alpha \to \infty \ }\tau _{\alpha i} (f)_p = p \ \small (i ^2 =-1) \end{align} $$
+$\tau$는 [[타우 변환, 타우-오 변환]]의 표기다. 증명 [[대칭이동 횟수의 확장정의|확장된 대칭이동의 정의]]로부터 $$ \begin{align} \mathbf{T}_{\alpha_1,\alpha_2,\cdots , \alpha_n } (f)_p \begin{pmatrix} x_p^{(1)}(1-e^{\alpha_1\pi i}) &#43;e^{\alpha_1\pi i}x_1\ x_p^{(2)}(1-e^{\alpha_2\pi i}) &#43;e^{\alpha_2\pi i}x_2\ \vdots \ x_p^{(n)}(1-e^{\alpha_n\pi i}) &#43;e^{\alpha_n\pi i}x_n \end{pmatrix} \end{align} $$ 인데, $\alpha_1,\alpha_2,\cdots$ 자리에 $\alpha i$ 를 넣고, $\lim_{\alpha \to \infty}$ 를 취하면 증명완료. $\blacksquare$ $$ \begin{align*} \lim_{\alpha \to\infty} \tau_{\alpha i}(f)_p \lim_{\alpha \to \infty} \begin{pmatrix} x_p^{(1)}(1-e^{-\alpha\pi}) &#43;e^{-\alpha\pi }x_1\ x_p^{(2)}(1-e^{-\alpha\pi}) &#43;e^{-\alpha\pi}x_2\ \vdots \ x_p^{(n)}(1-e^{-\alpha\pi}) &#43;e^{-\alpha\pi}x_n \end{pmatrix} \begin{pmatrix} x_p^{(1)} \ x_p^{(2)} \ \vdots \ x_p^{(n)} \end{pmatrix} \blacksquare \end{align*} $$
+...</p>
+  </div>
+  <footer class="entry-footer">1 min</footer>
+  <a class="entry-link" aria-label="post link to " href="http://localhost:1313/math/%EC%86%8C%EC%9A%A9%EB%8F%8C%EC%9D%B4-%EC%A0%95%EB%A6%AC/"></a>
 </article>
     </main>
     

@@ -6,8 +6,92 @@
     <description>Recent content on Tabula rasa</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Aug 2025 17:48:52 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 26 Aug 2025 13:20:52 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>대칭이동 변환 횟수의 확장정의</title>
+      <link>http://localhost:1313/math/%EB%8C%80%EC%B9%AD%EC%9D%B4%EB%8F%99-%ED%9A%9F%EC%88%98%EC%9D%98-%ED%99%95%EC%9E%A5%EC%A0%95%EC%9D%98/</link>
+      <pubDate>Tue, 26 Aug 2025 13:20:52 +0900</pubDate>
+      <guid>http://localhost:1313/math/%EB%8C%80%EC%B9%AD%EC%9D%B4%EB%8F%99-%ED%9A%9F%EC%88%98%EC%9D%98-%ED%99%95%EC%9E%A5%EC%A0%95%EC%9D%98/</guid>
+      <description>&lt;h2 id=&#34;표기&#34;&gt;표기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;$x\sim y$ 좌표평면 $S_2=\mathbb{R}^2$ 위의 도형 $f=\begin{pmatrix}x\y\end{pmatrix}\mid (x,y) \in D$ 와  정점 $p(x_p,y_p)$ 에 대하여, 도형 $f$를 정점 $p$에 대해 $x=0$ 성분으로는 $\alpha$번, $y=0$ 성분으로는 $\beta$번 대칭이동&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;한 도형을 아래와 같이 나타내자.
+$$
+\mathbf{T}_{\alpha,\beta}(f)_p
+$$&lt;/li&gt;
+&lt;li&gt;도형 $f$의 정의역은 $D\subset S_2$ 인데 편의를 위해 일반적인 도형 $D=S_2$로 생각하고, 따로 표기는 생략한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;확장정의&#34;&gt;확장정의&lt;/h1&gt;
+&lt;h1 id=&#34;도형이-fbeginpmatrixxyendpmatrixmid-xy-in-d-순서쌍으로-주어졌을때-mathbft_alphabetafp-를-아래와-같이-정의하자alphabetaf_p&#34;&gt;도형이 $f=\begin{pmatrix}x\y\end{pmatrix}\mid (x,y) \in D$ 순서쌍으로 주어졌을때, $\mathbf{T}_{\alpha,\beta}(f)&lt;em&gt;p$ 를 아래와 같이 정의하자.
+$$
+\mathbf{T}&lt;/em&gt;{\alpha,\beta}(f)_p&lt;/h1&gt;
+&lt;p&gt;\begin{pmatrix}
+x_p (1-e^{\alpha \pi i} )+e^{\alpha \pi i}x
+\
+y_p (1-e^{\beta \pi i} )+e^{\beta \pi i}y
+\end{pmatrix}
+\mid (x,y)\in D
+$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>대칭적분방정식</title>
+      <link>http://localhost:1313/math/%EB%8C%80%EC%B9%AD%EC%A0%81%EB%B6%84%EB%B0%A9%EC%A0%95%EC%8B%9D/</link>
+      <pubDate>Tue, 26 Aug 2025 13:20:52 +0900</pubDate>
+      <guid>http://localhost:1313/math/%EB%8C%80%EC%B9%AD%EC%A0%81%EB%B6%84%EB%B0%A9%EC%A0%95%EC%8B%9D/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Reflection Integral Equation&lt;/strong&gt;, $\text{RIE by Kunwoo Park}$ at July 1st, 2024&lt;/p&gt;
+&lt;h1 id=&#34;공식&#34;&gt;공식&lt;/h1&gt;
+&lt;p&gt;좌표평면 $S_2=\mathbb{R}^2$ 위의 &lt;strong&gt;함수&lt;/strong&gt; $f$와 정점 $p(x_p,y_p)$에 대한 $f$의 $p$에 대한 [[대칭이동 횟수의 확장정의|확장된 대칭이동]]된 함수 $\mathbf{T}&lt;em&gt;{\alpha,\beta}(f)&lt;em&gt;p$ 의 고정된 적분영역 $[a,b]$ 위의 넓이는 아래와 같다.
+$$
+\huge
+\int&lt;/em&gt;{a}^{b} \mathbf{T}&lt;/em&gt;{\alpha,\beta}{f} &lt;em&gt;p ,(x), \mathrm{d} x= y_p (b-a)(1-e^{\beta \pi i}) + e^{(\beta - \alpha ) \pi i}\int&lt;/em&gt;{a&amp;rsquo;}^{b&amp;rsquo;}f(x) , \mathrm{d}x
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;축약표기:&lt;/em&gt; $A&amp;rsquo;=x_p(1-e^{\alpha \pi i})+e^{\alpha \pi i}A$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;증명&#34;&gt;증명&lt;/h2&gt;
+&lt;h1 id=&#34;아무튼-이-mathbftalphabetafalphabetaf-_p--mathrmd-x&#34;&gt;본문인데
+아니 왜 본문이 이렇게 ㅋ큰거야
+음
+[[대칭이동 횟수의 확장정의]]로부터 아래와 같이 쓸 수 있다.
+$$
+\mathbf{T}&lt;em&gt;{\alpha,\beta}(f)&lt;em&gt;p =
+\begin{pmatrix}x_p (1-e^{\alpha \pi i} )+e^{\alpha \pi i}x\y_p (1-e^{\beta \pi i} )+e^{\beta \pi i}y\end{pmatrix}$$
+이때 $f$가 &lt;strong&gt;함수&lt;/strong&gt;라면, $y=f(x)$ 이므로 아래와 같이 쓸 수 있다.
+$$
+\mathbf{T}&lt;/em&gt;{\alpha,\beta}(f)&lt;em&gt;p =
+y_p(1-e^{\beta \pi i}) + e^{\beta \pi i} f(x_p(1-e^{\alpha \pi i })+e^{\alpha \pi i}x)
+$$
+이는 아래의 $\mathbf{T}&lt;/em&gt;{1,1}(f)&lt;em&gt;p$ 로부터 바로 생각할 수 있다.
+$$
+f(x) \rightarrow \underbrace{2y_p -f}&lt;/em&gt;{\text{outside}}(\underbrace{2x_p -x}&lt;/em&gt;{\text{inside}})
+$$
+아무튼 이 $\mathbf{T}&lt;em&gt;{\alpha,\beta}(f)&lt;em&gt;p$ 를 고정된 구간 $[a,b]$ 위에서 치환적분을 이용해 적분하면 식을 얻는다.
+$$
+\begin{align}
+\text{we want: }I=\int&lt;/em&gt;{a}^{b} \mathbf{T}&lt;/em&gt;{\alpha,\beta}(f) _p , \mathrm{d} x&lt;/h1&gt;
+&lt;p&gt;\int_{a}^{b}y_p(1-e^{\beta \pi i}) + e^{\beta \pi i} f(\underbrace{x_p(1-e^{\alpha \pi i })+e^{\alpha \pi i}x}&lt;em&gt;{x&amp;rsquo;}) , \mathrm{d}x
+\
+= \int&lt;/em&gt;{a&amp;rsquo;}^{b&amp;rsquo;}\left{ y_p (1-e^{\beta \pi i}) +e^{\beta \pi i} f(u) \right}\cfrac{{\mathrm{d}}u }{e^{\alpha \pi i}} , \text { as }x&amp;rsquo; \rightarrow u
+\
+= \underbrace{\cfrac{1}{e^{\alpha \pi i}}\int_{a&amp;rsquo;}^{b&amp;rsquo;} y_p(1-e^{\beta\pi i}) , \mathrm{d}u}&lt;em&gt;C + \cfrac{e^{\beta \pi i}}{e^{\alpha \pi i}} \int&lt;/em&gt;{a&amp;rsquo;}^{b&amp;rsquo;} f(u), \mathrm{d}u
+\
+C = \cfrac{y_p (1-e^{\beta \pi i})}{e^{\alpha \pi i}} \cdot 1 \bigg\rvert &lt;em&gt;{a&amp;rsquo;}^{b&amp;rsquo;} = \cfrac{y_p (1-e^{\beta \pi i})}{\cancel{e^{\alpha \pi i}}} \cdot (b-a) \cdot \cancel{ e^{\alpha \pi i}}
+\
+\therefore I = y_p(b-a)(1-e^{\beta \pi i}) + e^{(\beta- \alpha) \pi i} \int&lt;/em&gt;{a&amp;rsquo;}^{b&amp;rsquo;} f(x) , \mathrm{d}x , \blacksquare
+\end{align}
+$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>대칭적분방정식 copy</title>
+      <link>http://localhost:1313/math/%EB%8C%80%EC%B9%AD%EC%A0%81%EB%B6%84%EB%B0%A9%EC%A0%95%EC%8B%9D-copy/</link>
+      <pubDate>Tue, 26 Aug 2025 13:20:52 +0900</pubDate>
+      <guid>http://localhost:1313/math/%EB%8C%80%EC%B9%AD%EC%A0%81%EB%B6%84%EB%B0%A9%EC%A0%95%EC%8B%9D-copy/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Reflection Integral Equation&lt;/strong&gt;, $\text{RIE by Kunwoo Park}$ at July 1st, 2024&lt;/p&gt;
+&lt;h1 id=&#34;공식&#34;&gt;공식&lt;/h1&gt;
+&lt;p&gt;좌표평면 $S_2=\mathbb{R}^2$ 위의 &lt;strong&gt;함수&lt;/strong&gt; $f$와 정점 $p(x_p,y_p)$에 대한 $f$의 $p$에 대한 [[대칭이동 횟수의 확장정의|확장된 대칭이동]]된 함수 $\mathbf{T}_{\alpha,\beta}(f)_p$ 의 고정된 적분영역 $[a,b]$ 위의 넓이는 아래와 같다.&lt;/p&gt;
+&lt;p&gt;$$\int_{a}^{b} \mathbf{T}_{\alpha, \beta}{{f}} _p(x)$$&lt;/p&gt;
+&lt;p&gt;$$\int_{a}^{b} \mathbf{T}_{\alpha,\beta}{f} &lt;em&gt;p ,(x), \mathrm{d} x= y_p (b-a)(1-e^{\beta \pi i}) + e^{(\beta - \alpha ) \pi i}\int&lt;/em&gt;{a&amp;rsquo;}^{b&amp;rsquo;}f(x) , \mathrm{d}x$$&lt;/p&gt;</description>
+    </item>
     <item>
       <title>First Post</title>
       <link>http://localhost:1313/posts/first-post/</link>
@@ -46,6 +130,62 @@ $$
 \begin{align}
 T(t) = T_0 + \cfrac{k}{cH} \cdot \sum_{x=0}^{t-1}\cfrac{1}{m_0 + x\varphi H} ; ;,(t=1,2,3,\cdots)
 \end{align}
+$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/math/%EC%86%8C%EC%9A%A9%EB%8F%8C%EC%9D%B4-%EC%A0%95%EB%A6%AC/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/math/%EC%86%8C%EC%9A%A9%EB%8F%8C%EC%9D%B4-%EC%A0%95%EB%A6%AC/</guid>
+      <description>&lt;p&gt;Kourtney&amp;rsquo;s vortex theorem, 2024 July&lt;/p&gt;
+&lt;h1 id=&#34;정리&#34;&gt;정리&lt;/h1&gt;
+&lt;p&gt;$n$차원 공간 $S_n=\mathbb{R}^n$ 위의 어떤 도형 $f$를 정점 $p$에 대해 크기가 무한대로 큰 순허수 횟수만큼 대칭이동하면, 점 $p$와 일치한다. &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+$$
+\begin{align}
+\lim _{\alpha \to \infty \ }\tau _{\alpha i} (f)_p  = p \ \small (i ^2 =-1)
+\end{align}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$\tau$는 [[타우 변환, 타우-오 변환]]의 표기다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;증명&#34;&gt;증명&lt;/h1&gt;
+&lt;h1 id=&#34;mathbft_alpha_1alpha_2cdots--alpha_n--f_p&#34;&gt;[[대칭이동 횟수의 확장정의|확장된 대칭이동의 정의]]로부터
+$$
+\begin{align}
+\mathbf{T}_{\alpha_1,\alpha_2,\cdots , \alpha_n } (f)_p&lt;/h1&gt;
+&lt;h1 id=&#34;tau_alpha-if_p&#34;&gt;\begin{pmatrix}
+x_p^{(1)}(1-e^{\alpha_1\pi i}) +e^{\alpha_1\pi i}x_1\
+x_p^{(2)}(1-e^{\alpha_2\pi i}) +e^{\alpha_2\pi i}x_2\
+\vdots
+\
+x_p^{(n)}(1-e^{\alpha_n\pi i}) +e^{\alpha_n\pi i}x_n
+\end{pmatrix}
+\end{align}
+$$
+인데, $\alpha_1,\alpha_2,\cdots$ 자리에 $\alpha i$ 를 넣고, $\lim_{\alpha \to \infty}$ 를 취하면 증명완료. $\blacksquare$
+$$
+\begin{align*}
+\lim_{\alpha \to\infty}
+\tau_{\alpha i}(f)_p&lt;/h1&gt;
+&lt;h1 id=&#34;endpmatrix&#34;&gt;\lim_{\alpha \to \infty}
+\begin{pmatrix}
+x_p^{(1)}(1-e^{-\alpha\pi}) +e^{-\alpha\pi }x_1\
+x_p^{(2)}(1-e^{-\alpha\pi}) +e^{-\alpha\pi}x_2\
+\vdots
+\
+x_p^{(n)}(1-e^{-\alpha\pi}) +e^{-\alpha\pi}x_n
+\end{pmatrix}&lt;/h1&gt;
+&lt;p&gt;\begin{pmatrix}
+x_p^{(1)}
+\
+x_p^{(2)}
+\
+\vdots
+\
+x_p^{(n)}
+\end{pmatrix}
+\blacksquare
+\end{align*}
 $$&lt;/p&gt;</description>
     </item>
   </channel>

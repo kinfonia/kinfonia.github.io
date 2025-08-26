@@ -6,20 +6,27 @@
     <description>Recent content in Tags on Tabula rasa</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 24 Aug 2025 17:48:52 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 26 Aug 2025 13:20:52 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analysis-Calculus</title>
       <link>http://localhost:1313/tags/analysis-calculus/</link>
-      <pubDate>Sun, 24 Aug 2025 17:48:52 +0900</pubDate>
+      <pubDate>Tue, 26 Aug 2025 13:20:52 +0900</pubDate>
       <guid>http://localhost:1313/tags/analysis-calculus/</guid>
       <description></description>
     </item>
     <item>
       <title>Thermodynamics</title>
       <link>http://localhost:1313/tags/thermodynamics/</link>
-      <pubDate>Sun, 24 Aug 2025 17:48:52 +0900</pubDate>
+      <pubDate>Tue, 26 Aug 2025 13:20:52 +0900</pubDate>
       <guid>http://localhost:1313/tags/thermodynamics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LinearAlgebra</title>
+      <link>http://localhost:1313/tags/linearalgebra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/linearalgebra/</guid>
       <description></description>
     </item>
   </channel>
